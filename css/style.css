@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size:15;
+    font-family: "Segoe UI", sans-serif;
+    font-style: Regular;
+    color:#FFF;
+}
+
+body {
+    background-color: #585858
+}
+
+hr {
+    width: 80%;
+    height: 10px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#FC7324;
+ }
+
+ .Top {
+     position: sticky;
+     top: 0;
+     background: #FC7324;
+     padding: 0.5em;
+     text-align: center;
+ }
