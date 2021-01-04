@@ -35,7 +35,7 @@ body {
 
 .Section-Home {
     display: grid;
-    grid-template-columns: 50% 45% 5%;
+    grid-template-columns: 50% 35% 15%;
     text-align: center;
 }
 
