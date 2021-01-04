@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bewik - Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/curtain-nav.css">
+    <script src="js/curtain-nav.js"></script>
 </head>
 
 <body>
     <section class="Top">
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav> 
+          </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
         <h1 class="Fixed-Text">Betreutes und begleitetes Wohnen in Kerzers</h1>
-        <hr class="hr-top">
     </section>
     <section class="Section-Home">
         <img src="img/Haus/Haus_lang.JPG" alt="Haus-Bild welches lang ist" class="Home-Pic">
         <hr class="hr-picture">
         <h2 class="Home-Title">BEWIK HOME</h2>
-        <p class="Home-text">Grüessech! Wir freuen uns, dass Sie unsere Internet-Präsenz besuchen. Als modernes
+        <p class="Home-text">Grüessech!<br>Wir freuen uns, dass Sie unsere Internet-Präsenz besuchen. Als modernes
             Kleinunternehmen wollen wir Sie gerne auch online mit allen Informationen rund um unsere Angebote versorgen.
             BEWIK wurde als "Private Familienplatzierung Kerzers Daniela Hunkeler" am 1. Januar 2005 in Kerzers
             gegründet.
@@ -26,7 +45,7 @@
             Pflegefachfrau und ehemalige SPITEX-Pflegedienstleiterin auch den Schritt in die berufliche Selbständigkeit
             BEWIK bietet betreutes und begleitetes Wohnen sowie Wohncoaching an.</p>
         <h2 class="Home-Title-Betreutes">Betreutes Wohnen in Kerzers</h2>
-        <img src="https://via.placeholder.com/225x225" alt="225x225 Platzhalter" class="pic-betreutes">
+        <img src="img/Haus/Haus_Quadrat.JPG" alt="Foto vom Haus" class="pic-betreutes">
         <p class="Home-Betreutes">In unserem eigenen, grosszügigen Einfamilienhaus bieten wir ein betreutes Wohnen an,
             hier
             leben eine 4-köpfige Familie sowie bis zu 4 Klienten unter einem Dach. Unsere Gäste haben eine leichte
@@ -38,7 +57,7 @@
             eines
             Aufenthaltes nehmen Sie bitte Kontakt mit uns auf.</p>
         <h2 class="Home-Title-Begleitetes">Begleitetes Wohnen in Kerzers</h2>
-        <img src="https://via.placeholder.com/225x225" alt="225x225 Platzhalter" class="pic-begleitetes">
+        <img src="https://via.placeholder.com/100x100" alt="225x225 Platzhalter" class="pic-begleitetes">
         <p class="Home-Begleitetes">Als nächster Schritt nach einem betreuten Wohnen ermöglichen wir ein begleitetes
             Wohnen
             in einer externen Wohngemeinschaft (Mietwohnung).Hier bieten wir 3-4 Personen mit Beeinträchtigung einen
@@ -84,7 +103,5 @@
                 </article>
         </div>
     </section>
-
 </body>
-
 </html>
