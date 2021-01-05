@@ -136,7 +136,6 @@ ul {
 }
 
 .Article-Home-Leitbild-WerteHaltungen {
-    padding-left: 10%;
     padding-top: 10px;
 }
 
@@ -325,19 +324,22 @@ ul {
 
 
 
-/* footer {
+footer {
     padding-top: 20px;
     background-color:#FC7324;
     text-align: center;
     Display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 250px 50px;
 }
 
 footer a {
     font-size:16px;
     font-family: "Segoe UI", sans-serif;
-    font-style: Regular;
+    font-style: italic;
     color:#FFF;
     text-decoration: none;
-} */
+}
+
+
 }
