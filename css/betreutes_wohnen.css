@@ -1,0 +1,14 @@
+.Top {
+    position: sticky;
+    top: 0;
+    background: #FC7324;
+    padding: 0.8em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.menu-bar {
+   grid-column: 0 / 2;
+   padding-left: 8px;
+}
