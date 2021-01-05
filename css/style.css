@@ -301,8 +301,9 @@ ul {
 }
 
 .Article-Home-Leitbild-WerteHaltungen {
-    padding-left: 10%;
+    padding-right: 8px;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .Home-Title-Leitbild-WerteHaltungen {
@@ -326,7 +327,7 @@ ul {
 
 footer {
     padding-top: 20px;
-    background-color:#FC7324;
+    background: linear-gradient(180deg, rgb(51, 50, 50) 0%, rgba(252,115,36,1) 5%, rgba(252,115,36,1) 100%);
     text-align: center;
     Display: grid;
     grid-template-columns: 50% 50%;
