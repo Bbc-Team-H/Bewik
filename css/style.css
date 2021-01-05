@@ -128,6 +128,7 @@ ul {
 .Home-Pic {
      width: 100%;
     grid-column: 1 / 4;
+    border-bottom: 10px solid #FC7324;
 }
 
 .Home-Title-Leitbild {
@@ -148,15 +149,7 @@ ul {
     padding-top: 30px;
 }
 
-.hr-picture {
-    width: 100%;
-    height: 10px;
-    border: 0 none;
-    margin-right: auto;
-    margin-left: auto;
-    background-color:#FC7324;
-    grid-column: 1/4;
-}
+
 
 .Home-Leitbild {
     text-align: center;
@@ -164,6 +157,13 @@ ul {
 
 .Fixed-Text {
     z-index: 1;
+}
+
+.article-home-text {
+    text-align: block;
+    grid-column: 1/4;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* footer {
@@ -182,7 +182,7 @@ footer a {
     text-decoration: none;
 } */
 }
-@media screen and (max-width:635px) {
+@media screen and (max-width:634px) {
 
 h1 {
     font-size:12px;
@@ -322,6 +322,8 @@ ul {
 .Fixed-Text {
     z-index: 1;
 }
+
+
 
 /* footer {
     padding-top: 20px;
