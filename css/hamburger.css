@@ -63,7 +63,7 @@
     margin: 30px 0 20px 20px;
     background: radial-gradient(circle, #FC7324, #FC7324);
     border-radius: 50%;
-    transition:  0.3s;
+    transition:  0.4s;
   }
   
   .change {
@@ -87,7 +87,7 @@
   }
   
   .change-bg {
-    width: 520px;
-    height: 460px;
+    width: 700px;
+    height: 640px;
     transform: translate(-60%,-30%);
   }
