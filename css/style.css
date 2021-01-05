@@ -137,10 +137,11 @@ ul {
 
 .Article-Home-Leitbild-WerteHaltungen {
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .Home-Title-Leitbild-WerteHaltungen {
-    padding-left: 7%;
+    padding-left: 3%;
     padding-top: 20px
 }
 
@@ -163,6 +164,11 @@ ul {
     grid-column: 1/4;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.Home-text {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer {
@@ -208,6 +214,7 @@ footer a {
     grid-column: 2/2;
     text-align: left;
     align-self: center;
+    color:#FFF;
     
 }
 
@@ -221,8 +228,17 @@ footer a {
 }
 
 .self-promotion p {
-    padding-top: 2px;
+    padding-top: 3px;
 }
+
+.Home-Leitbild-WerteHaltungen {
+    text-align: left;
+}
+
+.Grundsätze-title {
+    padding-left: 3%;
+}
+
 }
 @media screen and (max-width:634px) {
 
@@ -284,6 +300,9 @@ ul {
     align-self: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 .Home-Title-Betreutes {
@@ -408,6 +427,7 @@ footer a {
     grid-column: 2/2;
     text-align: left;
     align-self: center;
+    color:#FFF;
     
 }
 
@@ -424,8 +444,13 @@ footer a {
     padding-top: 2px;
 }
 
+.Home-Leitbild-WerteHaltungen {
+    text-align: left;
+}
 
-
+.Grundsätze-title {
+    padding-left: 3%;
+}
 
 
 }
