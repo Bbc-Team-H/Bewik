@@ -49,6 +49,7 @@
   
   .nav li a:hover {
     font-weight: bold;
+    color: rgb(170, 169, 169);
   }
   
   .menu-bg, #menu {
