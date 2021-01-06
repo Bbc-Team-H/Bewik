@@ -237,6 +237,8 @@ p {
 
     .Home-Leitbild-WerteHaltungen {
         text-align: left;
+        grid-column: 1/3;
+        margin-left: 14%;
     }
 
     .Grundsätze-title {
@@ -245,7 +247,33 @@ p {
 
     .article-home-text-title {
         grid-column: 1/4;
+        
     }
+
+    .Angebot-title {
+        text-align: left;
+        padding-left: 28%;
+
+    }
+
+    .Title-mehr {
+        padding-bottom: 25px;
+    }
+
+    .hinweis {
+        background-color: rgba(255, 0, 0, 0.3);
+        border-radius: 15px;
+        padding: 1%;
+        width:75%;
+        margin: 10px 0;
+        margin-left: 14%;
+    }
+
+    .hinweis-text {
+        margin: 0 20px;
+    }
+
+
 
 }
 
@@ -459,7 +487,30 @@ p {
     }
 
     .Grundsätze-title {
-        padding-left: 3%;
+        padding-left: 5%;
+    }
+
+    .Angebot-title {
+        text-align: left;
+        padding-left: 10%;
+
+    }
+
+    .Title-mehr {
+        padding-bottom: 25px;
+    }
+
+    .hinweis {
+        background-color: rgba(255, 0, 0, 0.3);
+        border-radius: 15px;
+        padding: 1%;
+        width:75%;
+        margin: 20px 0;
+        margin-left: 10%;
+    }
+
+    .hinweis-text {
+        margin: 0 20px;
     }
 
 
