@@ -9,448 +9,458 @@ p {
     font-family: 'Lora', serif;
 }
 
-@media screen and (min-width: 635px){
+@media screen and (min-width: 635px) {
 
-h1 {
-    font-size:12px;
-    font-family: "Segoe UI", sans-serif;
-    font-style: Regular;
-    color:#FFF;
-    grid-column: 2/ 2;
-    grid-row: 1;
-    align-self: center;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-image: linear-gradient(#4d4b4b, #303030);
-    color: #cfcfcf;
-}
-
-ul {
-    font-family: 'Lora', serif;
-}
-
-
- .Top {
-     position: sticky;
-     top: 0;
-     background: #FC7324;
-     padding: 0.8em;
-     text-align: center;
-     display: grid;
-     grid-template-columns: 10% 90%;
- }
-
-.menu-bar {
-    grid-column: 0 / 2;
-    padding-left: 8px;
-}
-
-.Section-Home {
-    display: grid;
-    grid-template-columns: 50% 35% 15%;
-    text-align: center;
-}
-
-.Home-Title {
-    grid-column: 1 / 4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.Home-text {
-    grid-column: 1 / 4;
-    align-self: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Title-Betreutes {
-    grid-column: 1 / 4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.pic-betreutes {
-    justify-self: end;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Betreutes {
-    padding-left: 10px;
-    text-align: left;
-    justify-self: start;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Title-Begleitetes {
-    grid-column: 1 / 4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.pic-begleitetes {
-    justify-self: end;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Begleitetes {
-    padding-left: 10px;
-    text-align: left;
-    justify-self: start;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Title-Leitbild {
-    grid-column: 1 / 4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.Home-Pic {
-     width: 100%;
-    grid-column: 1 / 4;
-    border-bottom: 10px solid #FC7324;
-}
-
-.Home-Title-Leitbild {
-    text-align: center;
-}
-
-.Article-Home-Leitbild-WerteHaltungen {
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.Home-Title-Leitbild-WerteHaltungen {
-    padding-left: 3%;
-    padding-top: 20px
-}
-
-.Home-Title {
-    padding-top: 30px;
-}
-
-
-
-.Home-Leitbild {
-    text-align: center;
-}
-
-.Fixed-Text {
-    z-index: 1;
-}
-
-.article-home-text {
-    text-align: block;
-    grid-column: 1/4;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.Home-text {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-footer {
-    padding-top: 20px;
-    background: linear-gradient(180deg, rgb(51, 50, 50) 0%, rgba(252,115,36,1) 5%, rgba(252,115,36,1) 100%);
-    text-align: center;
-    Display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25px 175px 30px;
-}
-
-footer a {
-    font-size:14.5px;
-    font-family: "Segoe UI", sans-serif;
-    font-style: italic;
-    color:#FFF;
-    text-decoration: none;
-}
-
-.title-bewik {
-    grid-column: 1/2;
-    font-size:20px;
-    text-align: left;
-    padding-left: 38px;
-}
-
-.categories {
-    text-align: left;
-    grid-row: 2/2;
-    list-style-type: none;
-    align-self: center;
-}
-
-.title-contact {
-    grid-column:2/2;
-    font-size: 20px;
-    text-align: left;
-    
-}
-
-.contact {
-    grid-row: 2/2;
-    grid-column: 2/2;
-    text-align: left;
-    align-self: center;
-    color:#FFF;
-    
-}
-
-.self-promotion {
-    grid-row: 3/3;
-    grid-column: 1/3;
-    align-self: start;
-    border-top: 3px solid #4d4b4b;
-    color: #ffffff;
-    font-size: 12px;
-}
-
-.self-promotion p {
-    padding-top: 3px;
-}
-
-.Home-Leitbild-WerteHaltungen {
-    text-align: left;
-}
-
-.Grundsätze-title {
-    padding-left: 3%;
-}
-
-}
-@media screen and (max-width:634px) {
-
-h1 {
-    font-size:12px;
-    font-family: "Segoe UI", sans-serif;
-    font-style: Regular;
-    color:#FFF;
-    grid-column: 2/ 2;
-    grid-row: 1;
-    align-self: center;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-image: linear-gradient(#4d4b4b, #303030);
-    color: #cfcfcf;
-}
-
-ul {
-    font-family: 'Lora', serif;
-}
-
-
- .Top {
-     position: sticky;
-     top: 0;
-     background: #FC7324;
-     padding: 0.8em;
-     text-align: center;
-     display: grid;
-     grid-template-columns: 10% 90%;
- }
-
-.menu-bar {
-    grid-column: 0 / 2;
-    padding-left: 8px;
-}
-
-.Section-Home {
-
-    text-align: center;
-}
-
-.Home-Title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.Home-text {
-    align-self: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-
-.Home-Title-Betreutes {
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.pic-betreutes {
-    justify-self: end;
-    grid-column: 1/3;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Betreutes {
-    padding-left: 10px;
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Title-Begleitetes {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.pic-begleitetes {
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Begleitetes {
-    padding-left: 10px;
-    text-align: left;
-    justify-self: start;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.Home-Title-Leitbild {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.Home-Pic {
-    width: 100%;
-    border-bottom: 10px solid #FC7324;
+    h1 {
+        font-size: 12px;
+        font-family: "Segoe UI", sans-serif;
+        font-style: Regular;
+        color: #FFF;
+        grid-column: 2/ 2;
+        grid-row: 1;
+        align-self: center;
     }
 
-.Home-Title-Leitbild {
-    text-align: center;
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        background-image: linear-gradient(#4d4b4b, #303030);
+        color: #cfcfcf;
+    }
+
+    ul {
+        font-family: 'Lora', serif;
+    }
+
+
+    .Top {
+        position: sticky;
+        top: 0;
+        box-shadow: 20px 25px 41px -20px rgba(0,0,0,0.75);
+        background: #FC7324;
+        padding: 0.8em;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 10% 90%;
+    }
+
+    .menu-bar {
+        grid-column: 0 / 2;
+        padding-left: 8px;
+    }
+
+    .Section-Home {
+        display: grid;
+        grid-template-columns: 50% 35% 15%;
+        text-align: center;
+    }
+
+    .Home-Title {
+        grid-column: 1 / 4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .Home-text {
+        grid-column: 1 / 4;
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    .Home-Title-Betreutes {
+        grid-column: 1 / 4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .pic-betreutes {
+        justify-self: end;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Betreutes {
+        padding-left: 10px;
+        text-align: left;
+        justify-self: start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Title-Begleitetes {
+        grid-column: 1 / 4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .pic-begleitetes {
+        justify-self: end;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Begleitetes {
+        padding-left: 10px;
+        text-align: left;
+        justify-self: start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Title-Leitbild {
+        grid-column: 1 / 4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .Home-Pic {
+        width: 100%;
+        grid-column: 1 / 4;
+        border-bottom: 10px solid #FC7324;
+    }
+
+    .Home-Title-Leitbild {
+        text-align: center;
+    }
+
+    .Article-Home-Leitbild-WerteHaltungen {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left: 12%;
+    }
+
+    .Home-Title-Leitbild-WerteHaltungen {
+        padding-left: 3%;
+        padding-top: 20px
+    }
+
+    .Home-Title {
+        padding-top: 30px;
+    }
+
+
+
+    .Home-Leitbild {
+        text-align: center;
+    }
+
+    .Fixed-Text {
+        z-index: 1;
+    }
+
+    .article-home-text {
+        text-align: block;
+        grid-column: 1/4;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+
+    .Home-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    footer {
+        padding-top: 20px;
+        background: linear-gradient(180deg, rgb(51, 50, 50) 0%, rgba(252, 115, 36, 1) 5%, rgba(252, 115, 36, 1) 100%);
+        text-align: center;
+        Display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25px 175px 30px;
+    }
+
+    footer a {
+        font-size: 14.5px;
+        font-family: "Segoe UI", sans-serif;
+        font-style: italic;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .title-bewik {
+        grid-column: 1/2;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 38px;
+    }
+
+    .categories {
+        text-align: left;
+        grid-row: 2/2;
+        list-style-type: none;
+        align-self: center;
+    }
+
+    .title-contact {
+        grid-column: 2/2;
+        font-size: 20px;
+        text-align: left;
+
+    }
+
+    .contact {
+        grid-row: 2/2;
+        grid-column: 2/2;
+        text-align: left;
+        align-self: center;
+        color: #FFF;
+
+    }
+
+    .self-promotion {
+        grid-row: 3/3;
+        grid-column: 1/3;
+        align-self: start;
+        border-top: 3px solid #4d4b4b;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .self-promotion p {
+        padding-top: 3px;
+    }
+
+    .Home-Leitbild-WerteHaltungen {
+        text-align: left;
+    }
+
+    .Grundsätze-title {
+        padding-left: 3%;
+    }
+
+    .article-home-text-title {
+        grid-column: 1/4;
+    }
+
 }
 
-.Article-Home-Leitbild-WerteHaltungen {
-    padding-right: 8px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
+@media screen and (max-width:634px) {
 
-.Home-Title-Leitbild-WerteHaltungen {
-    padding-left: 7%;
-    padding-top: 20px
-}
+    h1 {
+        font-size: 12px;
+        font-family: "Segoe UI", sans-serif;
+        font-style: Regular;
+        color: #FFF;
+        grid-column: 2/ 2;
+        grid-row: 1;
+        align-self: center;
+    }
 
-.Home-Title {
-    padding-top: 30px;
-}
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.Home-Leitbild {
-    text-align: center;
-}
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.Fixed-Text {
-    z-index: 1;
-}
+    body {
+        background-image: linear-gradient(#4d4b4b, #303030);
+        color: #cfcfcf;
+    }
+
+    ul {
+        font-family: 'Lora', serif;
+    }
+
+
+    .Top {
+        position: sticky;
+        top: 0;
+        box-shadow: 20px 25px 41px -20px rgba(0,0,0,0.75);
+        background: #FC7324;
+        padding: 0.8em;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 10% 90%;
+    }
+
+    .menu-bar {
+        grid-column: 0 / 2;
+        padding-left: 8px;
+    }
+
+    .Section-Home {
+
+        text-align: center;
+    }
+
+    .Home-Title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .Home-text {
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: left;
+    }
+
+    .Home-Title-Betreutes {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .pic-betreutes {
+        justify-self: end;
+        grid-column: 1/3;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Betreutes {
+        padding-left: 10px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Title-Begleitetes {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .pic-begleitetes {
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Begleitetes {
+        padding-left: 10px;
+        text-align: left;
+        justify-self: start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Home-Title-Leitbild {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
+    }
+
+    .Home-Pic {
+        width: 100%;
+        border-bottom: 10px solid #FC7324;
+    }
+
+    .Home-Title-Leitbild {
+        text-align: center;
+    }
+
+    .Article-Home-Leitbild-WerteHaltungen {
+        padding-right: 8px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .Home-Title-Leitbild-WerteHaltungen {
+        padding-left: 7%;
+        padding-top: 20px
+    }
+
+    .Home-Title {
+        padding-top: 30px;
+    }
+
+    .Home-Leitbild {
+        text-align: center;
+    }
+
+    .Fixed-Text {
+        z-index: 1;
+    }
 
 
 
-footer {
-    padding-top: 20px;
-    background: linear-gradient(180deg, rgb(51, 50, 50) 0%, rgba(252,115,36,1) 5%, rgba(252,115,36,1) 100%);
-    text-align: center;
-    Display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25px 175px 30px;
-}
+    footer {
+        padding-top: 20px;
+        background: linear-gradient(180deg, rgb(51, 50, 50) 0%, rgba(252, 115, 36, 1) 5%, rgba(252, 115, 36, 1) 100%);
+        text-align: center;
+        Display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25px 175px 30px;
+    }
 
-footer a {
-    font-size:14.5px;
-    font-family: "Segoe UI", sans-serif;
-    font-style: italic;
-    color:#FFF;
-    text-decoration: none;
-}
+    footer a {
+        font-size: 14.5px;
+        font-family: "Segoe UI", sans-serif;
+        font-style: italic;
+        color: #FFF;
+        text-decoration: none;
+    }
 
-.title-bewik {
-    grid-column: 1/2;
-    font-size:20px;
-}
+    .title-bewik {
+        grid-column: 1/2;
+        font-size: 20px;
+    }
 
-.categories {
-    text-align: left;
-    grid-row: 2/2;
-    list-style-type: none;
-    align-self: center;
-}
+    .categories {
+        text-align: left;
+        grid-row: 2/2;
+        list-style-type: none;
+        align-self: center;
+    }
 
-.title-contact {
-    grid-column:2/2;
-    font-size: 20px;
-    
-}
+    .title-contact {
+        grid-column: 2/2;
+        font-size: 20px;
 
-.contact {
-    grid-row: 2/2;
-    grid-column: 2/2;
-    text-align: left;
-    align-self: center;
-    color:#FFF;
-    
-}
+    }
 
-.self-promotion {
-    grid-row: 3/3;
-    grid-column: 1/3;
-    align-self: start;
-    border-top: 3px solid #4d4b4b;
-    color: #ffffff;
-    font-size: 12px;
-}
+    .contact {
+        grid-row: 2/2;
+        grid-column: 2/2;
+        text-align: left;
+        align-self: center;
+        color: #FFF;
 
-.self-promotion p {
-    padding-top: 2px;
-}
+    }
 
-.Home-Leitbild-WerteHaltungen {
-    text-align: left;
-}
+    .self-promotion {
+        grid-row: 3/3;
+        grid-column: 1/3;
+        align-self: start;
+        border-top: 3px solid #4d4b4b;
+        color: #ffffff;
+        font-size: 12px;
+    }
 
-.Grundsätze-title {
-    padding-left: 3%;
-}
+    .self-promotion p {
+        padding-top: 2px;
+    }
+
+    .Home-Leitbild-WerteHaltungen {
+        text-align: left;
+    }
+
+    .Grundsätze-title {
+        padding-left: 3%;
+    }
 
 
 }
