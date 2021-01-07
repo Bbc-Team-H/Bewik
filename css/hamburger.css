@@ -49,7 +49,8 @@
   
   .nav li a:hover {
     font-weight: bold;
-    color: rgb(170, 169, 169);
+    color:rgb(62, 61, 61);
+    transition: color 0.15s ease-in-out, font-weight 0.2s ease-in-out;
   }
   
   .menu-bg, #menu {
