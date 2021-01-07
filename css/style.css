@@ -322,6 +322,11 @@ p {
         margin-bottom: 20px;
     }
 
+    .freie-eingerückt {
+        margin-left: 2%;
+        margin-bottom: 30px;
+    }
+
 
 }
 
@@ -614,6 +619,11 @@ p {
     .title-thing-2 {
         margin-bottom: 20px;
         margin-left: 12%;
+    }
+
+    .freie-eingerückt {
+        margin-left: 8%;
+        margin-bottom: 30px;
     }
 
 }
