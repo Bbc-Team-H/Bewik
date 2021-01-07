@@ -306,6 +306,22 @@ p {
         font-family: 'Lora', serif;
     }
 
+    .Finanz-text-coaching {
+        margin-bottom: 10px;
+        margin-top: 6%;
+    }
+
+    .text-thing {
+        text-align: left;
+        grid-column: 1/4;
+        margin-right: 5%;
+        text-align: left;
+    }
+
+    .title-thing-2 {
+        margin-bottom: 20px;
+    }
+
 
 }
 
@@ -583,6 +599,21 @@ p {
         margin-top: 20px;
     }
 
+    .Finanz-text-coaching {
+        margin-bottom: 10px;
+        margin-top: 6%;
+    }
 
+    .text-thing {
+        text-align: left;
+        grid-column: 1/4;
+        margin-right: 5%;
+        margin-left: 12%;
+    }
+
+    .title-thing-2 {
+        margin-bottom: 20px;
+        margin-left: 12%;
+    }
 
 }
