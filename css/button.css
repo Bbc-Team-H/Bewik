@@ -8,10 +8,15 @@
     margin-top: 10px;
     margin-bottom: 35px;
     cursor: pointer;
-        color: #fff;
-
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .button-container {
     text-align: center;
+}
+
+.more-button:hover {
+    background-color: #4d4b4b;
+    color: #cfcfcf;
 }

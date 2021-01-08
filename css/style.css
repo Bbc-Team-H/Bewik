@@ -403,37 +403,37 @@ p {
         grid-row: 14/15;
     }
 
-    #grid-personen-img-1 {
+    #grid-infrastruktur-img-1 {
         grid-row: 2;
     }
-    #grid-personen-img-2 {
+    #grid-infrastruktur-img-2 {
         grid-row: 3;
     }
-    #grid-personen-img-3 {
+    #grid-infrastruktur-img-3 {
         grid-row: 4;
     }
-    #grid-personen-img-4 {
+    #grid-infrastruktur-img-4 {
         grid-row: 5;
     }
-    #grid-personen-img-5 {
+    #grid-infrastruktur-img-5 {
         grid-row: 6;
     }
-    #grid-personen-img-6 {
+    #grid-infrastruktur-img-6 {
         grid-row: 9;
     }
-    #grid-personen-img-7 {
+    #grid-infrastruktur-img-7 {
         grid-row: 10;
     }
-    #grid-personen-img-8 {
+    #grid-infrastruktur-img-8 {
         grid-row: 11;
     }
-    #grid-personen-img-9 {
+    #grid-infrastruktur-img-9 {
         grid-row: 12;
     }
-    #grid-personen-img-10 {
+    #grid-infrastruktur-img-10 {
         grid-row: 13;
     }
-    #grid-personen-img-11 {
+    #grid-infrastruktur-img-11 {
         grid-row: 14;
     }
 
@@ -505,27 +505,28 @@ p {
         grid-row: 10/11;
     }
 
-    #grid-infrastruktur-img-1 {
+    #grid-personen-img-1 {
         grid-row: 2;
     }
-    #grid-infrastruktur-img-2 {
+    #grid-personen-img-2 {
         grid-row: 3;
     }
-    #grid-infrastruktur-img-3 {
+    #grid-personen-img-3 {
         grid-row: 4;
     }
-    #grid-infrastruktur-img-4 {
+    #grid-personen-img-4 {
         grid-row: 5;
     }
-    #grid-infrastruktur-img-5 {
+    #grid-personen-img-5 {
         grid-row: 6;
     }
-    #grid-infrastruktur-img-6 {
+    #grid-personen-img-6 {
         grid-row: 9;
     }
-    #grid-infrastruktur-img-7 {
+    #grid-personen-img-7 {
         grid-row: 10;
     }
+
 
     #dumb-programmer {
         padding-right: 65%;
@@ -962,7 +963,7 @@ p {
         margin: 25px 0;
         font-size: 0.9em;
         font-family: sans-serif;
-        min-width: 400px;
+        min-width: 300px;
         box-shadow: 2px 10px 41px 8px rgba(0,0,0,1);
     }
 
